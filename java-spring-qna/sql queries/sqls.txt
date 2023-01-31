@@ -1,0 +1,12 @@
+create table qna 
+(id int primary key,
+question varchar(255),
+answer1 varchar(255),
+answer2 varchar(255),
+answer3 varchar(255),
+answer4 varchar(255),
+correct_answer varchar(255));
+
+insert into qna 
+values
+(1,"What is your name?","A","B","C","D","A");
